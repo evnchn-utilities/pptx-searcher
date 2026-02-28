@@ -1,7 +1,15 @@
-# Project Argo
+# pptx-searcher
 
-![Argo](https://github.com/evnchn/project-argo/assets/37951241/527cadc8-981c-4b5e-a749-3fb470f5599f)
+Search for words across PowerPoint (PPTX) files.
 
----
+## Usage
 
-_Documentation will come when it is appropriate to do so._
+```bash
+python argo.py
+```
+
+Enter a search term when prompted. The tool will scan PPTX files and display matches.
+
+## Dependencies
+
+- [python-pptx](https://pypi.org/project/python-pptx/)
